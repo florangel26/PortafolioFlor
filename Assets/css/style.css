@@ -1,0 +1,98 @@
+
+*{
+    margin: 0;
+    font-family: 'JetBrains Mono',
+}
+
+.navbar{
+    background-color:#212121!important;
+   
+     
+    }
+    .navbar-brand{
+        font-family: 'JetBrains Mono', monospace;
+        font-weight:600;
+        font-size: 35px;
+        
+      }
+ 
+  .navbar-collapse{
+    flex: inherit;
+  }
+
+  .img {
+    max-width: 100%;
+    height: auto;
+  }
+
+
+
+  
+     .container2{
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      background: #f500a3;
+      width: auto;
+      justify-content: space-between;
+       padding: 150px;
+       height: 100vh; 
+        font-size: 24px;
+    }
+       
+     
+     footer {
+      margin-bottom: 0;
+      background-color: #212121;
+      justify-content: space-between;
+      align-items: center;
+      color: #ff0088;
+      padding: 20px;
+    }
+    
+    .logofooter {
+      text-align: center;
+    }
+    
+    .divIcons {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .divIcons i {
+      font-size: 24px;
+      margin-left: 10px;
+    }
+    
+    
+    img{
+      padding: 30px;
+    }
+   
+    .father{
+      background-color: black;
+      width: 100%;
+      display: grid;
+      margin-top: 20px;
+      height: auto;
+    }
+    .son{
+      margin: 80px;
+     text-align: center;
+     color: white;
+     font-family: 'JetBrains Mono';
+    }
+    
+     @media screen and (max-width: 900px) {
+      .ImageFirst {
+        display: none;
+      }
+      #headerhome {
+        justify-content: center;
+        font-size: 30px;
+      }
+
+      .navbar-brand{
+        display: none;
+      }
+    }
