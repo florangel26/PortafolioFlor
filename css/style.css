@@ -4,7 +4,8 @@
 
 *{
     margin: 0;
-    font-family: 'JetBrains Mono',
+    font-family: 'JetBrains Mono';
+ 
 }
 
 .navbar{
@@ -13,24 +14,22 @@
      
     }
     .navbar-brand{
-        font-family: 'JetBrains Mono', monospace;
+        font-family: 'JetBrains Mono', 
+         monospace;
         font-weight:600;
         font-size: 35px;
         
       }
  
-  .navbar-collapse{
+    .navbar-collapse{
     flex: inherit;
-  }
+     }
 
-  .img {
+    .img {
     max-width: 100%;
     height: auto;
-  }
+    }
 
-
-
-  
      .container2{
       display: flex;
       align-items: center;
@@ -38,14 +37,19 @@
       background: #f500a3;
       width: auto;
       justify-content: space-between;
-       padding: 150px;
-       height: 100vh; 
-        font-size: 24px;
+      padding: 150px;
+      height: 100vh; 
+      font-size: 24px;
     }
        
-     
+    .son{
+     margin:5em;
+     text-align: center;
+     color: white;
+     font-family: 'JetBrains Mono';
+    }
      footer {
-      margin-bottom: 0;
+     
       background-color: #212121;
       justify-content: space-between;
       align-items: center;
@@ -79,13 +83,37 @@
       margin-top: 20px;
       height: auto;
     }
-    .son{
-      margin: 80px;
-     text-align: center;
-     color: white;
-     font-family: 'JetBrains Mono';
-    }
     
+    .about-info{
+      width: 70%;
+      margin: 1em auto;
+      padding: 20px;
+      color: white;
+
+    }
+    /* estilo about*/
+    .user-principal{
+     color: white;
+     font-size: 20px;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+    
+    }
+    .user-div{
+      flex-basis: 23%;
+      text-align: center;
+      padding: 30px;
+    }
+    .icon-about1{
+      background-color: rgb(143, 140, 140);
+      border-radius: 20px; 
+    }
+
+
+     /*media query */
+
      @media screen and (max-width: 900px) {
       .ImageFirst {
         display: none;
@@ -99,3 +127,16 @@
         display: none;
       }
     }
+    @media (max-width: 768px) {
+      .user-div {
+        justify-content: center;
+        text-align: center;
+        width: auto;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .user-div {
+        justify-content: center;
+        flex-basis: 100%; 
+    }}
